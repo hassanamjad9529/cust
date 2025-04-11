@@ -18,6 +18,26 @@ class MyApp extends StatelessWidget {
 // git init
 // git add README.md
 // git commit -m "first commit"
+//         echo "# cust" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+//         echo "# cust" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+//         echo "# cust" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+//         echo "# cust" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+//         echo "# cust" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
 // git branch -M main
 // git remote add origin https://github.com/hassanamjad9529/cust.git
 // git push -u origin mainecho "# cust" >> README.md
