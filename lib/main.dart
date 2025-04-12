@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,94 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
-//         echo "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-//         echo "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-//         echo "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-//         echo "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-//         echo "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-//         echo "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin mainecho "# cust" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/hassanamjad9529/cust.git
-// git push -u origin main
 //         // This is the theme of your application.
 //         //
 //         // TRY THIS: Try running your application with "flutter run". You'll see
@@ -116,98 +30,226 @@ class MyApp extends StatelessWidget {
 //         //
 //         // This works for code too, not just values: Most code changes can be
 //         // tested with just a hot reload.
-//         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-//         useMaterial3: true,
-//       ),
-//       home: const MyHomePage(title: 'Flutter Demo Home Page'),
-//     );
-//   }
-// }
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const SplashView(),
+    );
+  }
+}
 
-// class MyHomePage extends StatefulWidget {
-//   const MyHomePage({super.key, required this.title});
+class SplashView extends StatefulWidget {
+  const SplashView({super.key});
 
-//   // This widget is the home page of your application. It is stateful, meaning
-//   // that it has a State object (defined below) that contains fields that affect
-//   // how it looks.
+  @override
+  State<SplashView> createState() => _SplashViewState();
+}
 
-//   // This class is the configuration for the state. It holds the values (in this
-//   // case the title) provided by the parent (in this case the App widget) and
-//   // used by the build method of the State. Fields in a Widget subclass are
-//   // always marked "final".
+class _SplashViewState extends State<SplashView>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _logoSizeAnimation;
+  late Animation<Offset> _logoPositionAnimation;
+  late Animation<Offset> _textPositionAnimation;
+  late Animation<double> _textRevealAnimation;
 
-//   final String title;
+  @override
+  void initState() {
+    super.initState();
 
-//   @override
-//   State<MyHomePage> createState() => _MyHomePageState();
-// }
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
 
-// class _MyHomePageState extends State<MyHomePage> {
-//   int _counter = 0;
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
 
-//   void _incrementCounter() {
-//     setState(() {
-//       // This call to setState tells the Flutter framework that something has
-//       // changed in this State, which causes it to rerun the build method below
-//       // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return Scaffold(
-      appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          //
-          // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
-          // action in the IDE, or press "p" in the console), to see the
-          // wireframe for each widget.
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              },
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
+          ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+    );
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+          child: Container(
+            width: 400,
+            height: 400,
+            decoration: const BoxDecoration(
+              shape: BoxShape.circle,
+              gradient: RadialGradient(
+                center: Alignment.center,
+                radius: 3.5,
+                colors: [
+                  Color(0xff3F42FF),
+                  Colors.transparent,
+                ],
+              ),
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -280,
+          right: -200,
+          child: Container(
+            width: 400,
+            height: 400,
+            decoration: const BoxDecoration(
+              shape: BoxShape.circle,
+              gradient: RadialGradient(
+                center: Alignment.center,
+                radius: 2,
+                colors: [
+                  Color(0xff3F42FF),
+                  Colors.transparent,
+                ],
+              ),
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        if (child != null) child!,
+      ],
     );
   }
 }
