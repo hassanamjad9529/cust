@@ -6422,6 +6422,150 @@ class _SplashViewState extends State<SplashView>
     );
 
     // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
     _logoSizeAnimation = TweenSequence<double>([
       // Stage 1: Swipe in at 200 (0% to 50%)
       TweenSequenceItem(
