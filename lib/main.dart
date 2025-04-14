@@ -165,6 +165,146 @@ class _SplashViewState extends State<SplashView>
             const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
       ),
     );
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
 
     _controller.forward();
   }
