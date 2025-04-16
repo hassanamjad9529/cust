@@ -2123,6 +2123,586 @@ class _SplashViewState extends State<SplashView>
                       ),
                     ],
                   ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+    // Text reveal animation (faster)
+    _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 1.0, curve: Curves.easeInOut), // 0.75s to 1.5s
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GradientBackground(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80.0),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return SlideTransition(
+                  position: _logoPositionAnimation, 
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const SizedBox(height: 44),
+                      // Animated Logo
+                      Container(
+                        height: _logoSizeAnimation.value,
+                        width: _logoSizeAnimation.value,
+                        child: Image.asset(
+                          'assets/images/AuraVPN_Logo.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                      const SizedBox(height: 44),
+                      // Animated Text Reveal
+                      ClipRect(
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: _textRevealAnimation.value,
+                          child: Image.asset(
+                            'assets/images/Aura_vpn_text copy.png',
+                            width: 240,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 );
               },
             ),
