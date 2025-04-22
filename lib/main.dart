@@ -911,7 +911,3 @@ class GradientBackground extends StatelessWidget {
 }
 }
 }
-}
-}
-}
-}
