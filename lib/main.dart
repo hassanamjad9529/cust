@@ -1070,6 +1070,222 @@ class GradientBackground extends StatelessWidget {
           child: Container(
             width: 400,
             height: 400,
+        if (child != null) child!,
+      ],
+    );
+  }
+}
+}
+}
+}
+}
+}
+}
+}
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -280,
+          right: -200,
+          child: Container(
+            width: 400,
+            height: 400,
+        if (child != null) child!,
+      ],
+    );
+  }
+}
+}
+}
+}
+}
+}
+}
+}
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -280,
+          right: -200,
+          child: Container(
+            width: 400,
+            height: 400,
+        if (child != null) child!,
+      ],
+    );
+  }
+}
+}
+}
+}
+}
+}
+}
+}
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -280,
+          right: -200,
+          child: Container(
+            width: 400,
+            height: 400,
+        if (child != null) child!,
+      ],
+    );
+  }
+}
+}
+}
+}
+}
+}
+}
+}
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -280,
+          right: -200,
+          child: Container(
+            width: 400,
+            height: 400,
+        if (child != null) child!,
+      ],
+    );
+  }
+}
+}
+}
+}
+}
+}
+}
+}
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -280,
+          right: -200,
+          child: Container(
+            width: 400,
+            height: 400,
+        if (child != null) child!,
+      ],
+    );
+  }
+}
+}
+}
+}
+}
+}
+}
+}
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -280,
+          right: -200,
+          child: Container(
+            width: 400,
+            height: 400,
+        if (child != null) child!,
+      ],
+    );
+  }
+}
+}
+}
+}
+}
+}
+}
+}
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -280,
+          right: -200,
+          child: Container(
+            width: 400,
+            height: 400,
+        if (child != null) child!,
+      ],
+    );
+  }
+}
+}
+}
+}
+}
+}
+}
+}
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
+              child: Container(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -280,
+          right: -200,
+          child: Container(
+            width: 400,
+            height: 400,
             decoration: const BoxDecoration(
               shape: BoxShape.circle,
               gradient: RadialGradient(
