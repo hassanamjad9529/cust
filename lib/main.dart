@@ -1195,23 +1195,6 @@ class GradientBackground extends StatelessWidget {
             child: BackdropFilter(
               filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
               child: Container(
-              ),
-            ),
-            ),
-            ),
-            ),
-            ),
-            ),
-            ),
-            ),
-            ),
-            ),
-            ),
-            ),
-            ),
-            child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 50, sigmaY: 50),
-              child: Container(
                 color: Colors.transparent,
               ),
             ),
