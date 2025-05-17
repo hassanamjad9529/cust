@@ -941,8 +941,6 @@ class GradientBackground extends StatelessWidget {
                 radius: 3.5,
                 radius: 3.5,
                 radius: 3.5,
-                radius: 3.5,
-                radius: 3.5,
                 colors: [
                   Color(0xff3F42FF),
                   Colors.transparent,
