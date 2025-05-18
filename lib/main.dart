@@ -1055,42 +1055,6 @@ class GradientBackground extends StatelessWidget {
   const GradientBackground({super.key, this.child});
 
   @override
-              gradient: RadialGradient(
-                center: Alignment.center,
-                radius: 3.5,
-                radius: 3.5,
-                radius: 3.5,
-                radius: 3.5,
-                colors: [
-                  Color(0xff3F42FF),
-                  Colors.transparent,
-                ],
-
-
-
-class GradientBackground extends StatelessWidget {
-  final Widget? child;
-  const GradientBackground({super.key, this.child});
-
-  @override
-              gradient: RadialGradient(
-                center: Alignment.center,
-                radius: 3.5,
-                radius: 3.5,
-                radius: 3.5,
-                radius: 3.5,
-                colors: [
-                  Color(0xff3F42FF),
-                  Colors.transparent,
-                ],
-
-
-
-class GradientBackground extends StatelessWidget {
-  final Widget? child;
-  const GradientBackground({super.key, this.child});
-
-  @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
