@@ -546,48 +546,6 @@ class _SplashViewState extends State<SplashView>
     super.initState();
 
     _controller = AnimationController(
-
-class SplashView extends StatefulWidget {
-  const SplashView({super.key});
-
-  @override
-  State<SplashView> createState() => _SplashViewState();
-}
-
-class _SplashViewState extends State<SplashView>
-    with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _logoSizeAnimation;
-  late Animation<Offset> _logoPositionAnimation;
-  late Animation<Offset> _textPositionAnimation;
-  late Animation<double> _textRevealAnimation;
-
-  @override
-  void initState() {
-    super.initState();
-
-    _controller = AnimationController(
-
-class SplashView extends StatefulWidget {
-  const SplashView({super.key});
-
-  @override
-  State<SplashView> createState() => _SplashViewState();
-}
-
-class _SplashViewState extends State<SplashView>
-    with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _logoSizeAnimation;
-  late Animation<Offset> _logoPositionAnimation;
-  late Animation<Offset> _textPositionAnimation;
-  late Animation<double> _textRevealAnimation;
-
-  @override
-  void initState() {
-    super.initState();
-
-    _controller = AnimationController(
       duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
       vsync: this,
     );
