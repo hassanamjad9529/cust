@@ -498,6 +498,526 @@ class _SplashViewState extends State<SplashView>
       ),
     );
 
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
+      vsync: this,
+    );
+
+    // Logo position animation from bottom to center
+    _logoPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 9.0),
+      end: const Offset(0.0, -0.6),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
+      ),
+    );
+
+    // Logo size animation with three stages using TweenSequence
+    _logoSizeAnimation = TweenSequence<double>([
+      // Stage 1: Swipe in at 200 (0% to 50%)
+      TweenSequenceItem(
+        tween: ConstantTween<double>(200.0),
+        weight: 50.0, // 0.75s (50% of 1.5s)
+      ),
+      // Stage 2: Grow from 200 to 220 (50% to 75%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 200.0, end: 210.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+      // Stage 3: Shrink from 220 to 180 (75% to 100%)
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 210.0, end: 180.0),
+        weight: 25.0, // 0.375s (25% of 1.5s)
+      ),
+    ]).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
+      ),
+    );
+
+    // Text position animation (unchanged timing, just faster)
+    _textPositionAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.0),
+      end: const Offset(0.0, 0.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve:
+            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
+      ),
+    );
+
     // Text reveal animation (faster)
     _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
       CurvedAnimation(
