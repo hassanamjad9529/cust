@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "754463672438",
+    "project_id": "telekom-f3eb5",
+    "storage_bucket": "telekom-f3eb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754463672438:android:5f08f097e53099859f3757",
+        "android_client_info": {
+          "package_name": "com.example.event_hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnrmq3LJiSDbnQnbRbjhbi_V7OclOyVoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754463672438:android:c4fb00c1c3bd3e5d9f3757",
+        "android_client_info": {
+          "package_name": "com.example.telekom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnrmq3LJiSDbnQnbRbjhbi_V7OclOyVoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
