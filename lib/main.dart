@@ -2503,4413 +2503,762 @@ class _SplashViewState extends State<SplashView>
         ),
       ),
     );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-                return SlideTransition(
-                  position: _logoPositionAnimation, 
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const SizedBox(height: 44),
-                      // Animated Logo
-                      Container(
-                        height: _logoSizeAnimation.value,
-                        width: _logoSizeAnimation.value,
-                        child: Image.asset(
-                          'assets/images/AuraVPN_Logo.png',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      const SizedBox(height: 44),
-                      // Animated Text Reveal
-                      ClipRect(
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          widthFactor: _textRevealAnimation.value,
-                          child: Image.asset(
-                            'assets/images/Aura_vpn_text copy.png',
-                            width: 240,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              },
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
             ),
           ),
         ),
-      ),
-    );
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
+  }
+}
+
+class GradientBackground extends StatelessWidget {
+  final Widget? child;
+  const GradientBackground({super.key, this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+          left: -180,
   }
 }
 
