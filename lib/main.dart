@@ -3075,6 +3075,186 @@ class GradientBackground extends StatelessWidget {
         ),
         Positioned(
           top: -250,
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Positioned(
+          top: -250,
           left: -180,
           child: Container(
             width: 400,
