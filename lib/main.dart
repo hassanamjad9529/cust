@@ -3108,8 +3108,6 @@ class GradientBackground extends StatelessWidget {
           decoration: const BoxDecoration(
           decoration: const BoxDecoration(
           decoration: const BoxDecoration(
-          decoration: const BoxDecoration(
-          decoration: const BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
