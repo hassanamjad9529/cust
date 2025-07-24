@@ -3109,6 +3109,305 @@ class GradientBackground extends StatelessWidget {
             ),
           ),
         ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
+        Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF12064F),
+                Color(0xFF12064F),
+              ],
+              stops: [0.0, 1.0],
+            ),
+          ),
+        ),
         Positioned(
           top: -250,
           left: -180,
