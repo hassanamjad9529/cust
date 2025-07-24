@@ -3287,12 +3287,7 @@ class GradientBackground extends StatelessWidget {
                 Color(0xFF12064F),
                 Color(0xFF12064F),
               ],
-              stops: [0.0, 1.0],
-            ),
-          ),
-        ),
-        Positioned(
-          top: -250,
+              top: -250,
           left: -180,
           child: Container(
             width: 400,
