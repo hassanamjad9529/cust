@@ -43,32 +43,6 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 @pragma('vm:entry-point')
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
-import 'package:event_hub/src/features/event/view_model/event_view_model.dart';
-import 'package:event_hub/src/features/search_events/event_search_view_model.dart';
-import 'package:event_hub/src/features/auth/view_model/auth_view_model.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:provider/provider.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
-
-@pragma('vm:entry-point')
-Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
-  await Firebase.initializeApp();
-import 'package:event_hub/src/features/event/view_model/event_view_model.dart';
-import 'package:event_hub/src/features/search_events/event_search_view_model.dart';
-import 'package:event_hub/src/features/auth/view_model/auth_view_model.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:provider/provider.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
-
-@pragma('vm:entry-point')
-Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
-  await Firebase.initializeApp();
 }
 
 Future<void> main() async {
