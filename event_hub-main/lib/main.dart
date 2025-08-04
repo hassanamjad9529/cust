@@ -153,27 +153,6 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => AttendeesViewModel()),
       ],
       child: ScreenUtilInit(
-        ChangeNotifierProvider(create: (_) => AuthViewModel()),
-        ChangeNotifierProvider(create: (_) => ThemeProvider()),
-        ChangeNotifierProvider(create: (_) => EventViewModel()),
-        ChangeNotifierProvider(create: (_) => EventSearchViewModel()),
-        ChangeNotifierProvider(create: (_) => AttendeesViewModel()),
-      ],
-      child: ScreenUtilInit(
-        ChangeNotifierProvider(create: (_) => AuthViewModel()),
-        ChangeNotifierProvider(create: (_) => ThemeProvider()),
-        ChangeNotifierProvider(create: (_) => EventViewModel()),
-        ChangeNotifierProvider(create: (_) => EventSearchViewModel()),
-        ChangeNotifierProvider(create: (_) => AttendeesViewModel()),
-      ],
-      child: ScreenUtilInit(
-        ChangeNotifierProvider(create: (_) => AuthViewModel()),
-        ChangeNotifierProvider(create: (_) => ThemeProvider()),
-        ChangeNotifierProvider(create: (_) => EventViewModel()),
-        ChangeNotifierProvider(create: (_) => EventSearchViewModel()),
-        ChangeNotifierProvider(create: (_) => AttendeesViewModel()),
-      ],
-      child: ScreenUtilInit(
         child: Consumer<ThemeProvider>(
           builder: (BuildContext context, themeProvider, Widget? child) {
             return MaterialApp(
