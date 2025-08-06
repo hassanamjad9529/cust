@@ -134,11 +134,6 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
 }
 
-@pragma('vm:entry-point')
-Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
-  await Firebase.initializeApp();
-}
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // debugPaintSizeEnabled = true;
