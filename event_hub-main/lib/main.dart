@@ -62,14 +62,6 @@ Future<void> main() async {
   // debugPaintPointersEnabled = true;
   // debugPaintLayerBordersEnabled = true;
   // debugRepaintRainbowEnabled = true;
-  // debugPaintBaselinesEnabled = true;
-  // debugPaintPointersEnabled = true;
-  // debugPaintLayerBordersEnabled = true;
-  // debugRepaintRainbowEnabled = true;
-  // debugPaintBaselinesEnabled = true;
-  // debugPaintPointersEnabled = true;
-  // debugPaintLayerBordersEnabled = true;
-  // debugRepaintRainbowEnabled = true;
   // debugInvertOversizedImages = true;
   // debugPaintBaselinesEnabled = true;
   // debugPaintPointersEnabled = true;
