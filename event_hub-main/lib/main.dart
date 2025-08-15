@@ -27,6 +27,158 @@ Future<void> main() async {
   // debugPaintLayerBordersEnabled = true;
   // debugRepaintRainbowEnabled = true;
   // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // debugPaintSizeEnabled = true;
+  // debugPaintBaselinesEnabled = true;
+  // debugPaintPointersEnabled = true;
+  // debugPaintLayerBordersEnabled = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
 
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
