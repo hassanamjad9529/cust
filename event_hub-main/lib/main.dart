@@ -173,34 +173,6 @@ Future<void> main() async {
 
   runApp(const MyApp());
 }
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  // debugPaintSizeEnabled = true;
-  // debugPaintBaselinesEnabled = true;
-  // debugPaintPointersEnabled = true;
-  // debugPaintLayerBordersEnabled = true;
-  // debugRepaintRainbowEnabled = true;
-  // debugInvertOversizedImages = true;
-
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
-
-  runApp(const MyApp());
-}
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  // debugPaintSizeEnabled = true;
-  // debugPaintBaselinesEnabled = true;
-  // debugPaintPointersEnabled = true;
-  // debugPaintLayerBordersEnabled = true;
-  // debugRepaintRainbowEnabled = true;
-  // debugInvertOversizedImages = true;
-
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
-
-  runApp(const MyApp());
-}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
