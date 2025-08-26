@@ -69,10 +69,46 @@ Future<void> main() async {
   // debugInvertOversizedImages = true;
   // debugInvertOversizedImages = true;
   // debugRepaintRainbowEnabled = true;
+
   // debugInvertOversizedImages = true;
   // debugRepaintRainbowEnabled = true;
   // debugInvertOversizedImages = true;
-
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
+  // debugInvertOversizedImages = true;
+  // debugRepaintRainbowEnabled = true;
+  // debugInvertOversizedImages = true;
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
