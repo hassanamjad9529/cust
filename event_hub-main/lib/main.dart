@@ -151,11 +151,6 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => EventViewModel()),
         ChangeNotifierProvider(create: (_) => EventSearchViewModel()),
         ChangeNotifierProvider(create: (_) => AttendeesViewModel()),
-        ChangeNotifierProvider(create: (_) => AuthViewModel()),
-        ChangeNotifierProvider(create: (_) => ThemeProvider()),
-        ChangeNotifierProvider(create: (_) => EventViewModel()),
-        ChangeNotifierProvider(create: (_) => EventSearchViewModel()),
-        ChangeNotifierProvider(create: (_) => AttendeesViewModel()),
       ],
       child: ScreenUtilInit(
         ChangeNotifierProvider(create: (_) => AuthViewModel()),
