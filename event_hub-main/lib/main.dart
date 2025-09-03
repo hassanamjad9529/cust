@@ -62,17 +62,6 @@ Future<void> main() async {
   // debugRepaintRainbowEnabled = true;
   // debugInvertOversizedImages = true;
   // debugInvertOversizedImages = true;
-  // debugInvertOversizedImages = true;
-  // debugRepaintRainbowEnabled = true;
-  // debugInvertOversizedImages = true;
-  // debugRepaintRainbowEnabled = true;
-  // debugInvertOversizedImages = true;
-  // debugInvertOversizedImages = true;
-  // debugRepaintRainbowEnabled = true;
-  // debugInvertOversizedImages = true;
-  // debugRepaintRainbowEnabled = true;
-  // debugInvertOversizedImages = true;
-  // debugInvertOversizedImages = true;
   // debugRepaintRainbowEnabled = true;
   // debugInvertOversizedImages = true;
   // debugRepaintRainbowEnabled = true;
