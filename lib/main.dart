@@ -81,24 +81,6 @@ class _SplashViewState extends State<SplashView>
       vsync: this,
     );
 
-  @override
-  void initState() {
-    super.initState();
-
-    _controller = AnimationController(
-      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
-      vsync: this,
-    );
-
-  @override
-  void initState() {
-    super.initState();
-
-    _controller = AnimationController(
-      duration: const Duration(milliseconds: 1500), // Reduced from 2s to 1.5s
-      vsync: this,
-    );
-
     // Logo position animation from bottom to center
     _logoPositionAnimation = Tween<Offset>(
       begin: const Offset(0.0, 9.0),
