@@ -201,6 +201,59 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
 //         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+//         // This is the theme of your application.
+gitme of your application.
 //         //
 //         // TRY THIS: Try running your application with "flutter run". You'll see
 //         // the application has a purple toolbar. Then, without quitting the app,
