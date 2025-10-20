@@ -344,7 +344,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-git
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const SplashView(),
+    );
+  }
+}
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
