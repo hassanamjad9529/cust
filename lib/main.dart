@@ -338,24 +338,6 @@ class _SplashViewState extends State<SplashView>
   late Animation<double> _logoSizeAnimation;
   late Animation<Offset> _logoPositionAnimation;
   late Animation<Offset> _textPositionAnimation;
-class _SplashViewState extends State<SplashView>
-    with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _logoSizeAnimation;
-  late Animation<Offset> _logoPositionAnimation;
-  late Animation<Offset> _textPositionAnimation;
-class _SplashViewState extends State<SplashView>
-    with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _logoSizeAnimation;
-  late Animation<Offset> _logoPositionAnimation;
-  late Animation<Offset> _textPositionAnimation;
-class _SplashViewState extends State<SplashView>
-    with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _logoSizeAnimation;
-  late Animation<Offset> _logoPositionAnimation;
-  late Animation<Offset> _textPositionAnimation;
   late Animation<double> _textRevealAnimation;
 
   @override
