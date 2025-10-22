@@ -393,36 +393,6 @@ class _SplashViewState extends State<SplashView>
       TweenSequenceItem(
         tween: ConstantTween<double>(200.0),
         weight: 50.0, // 0.75s (50% of 1.5s)
-      begin: const Offset(0.0, 9.0),
-      end: const Offset(0.0, -0.6),
-    ).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
-      ),
-    );
-
-    // Logo size animation with three stages using TweenSequence
-    _logoSizeAnimation = TweenSequence<double>([
-      // Stage 1: Swipe in at 200 (0% to 50%)
-      TweenSequenceItem(
-        tween: ConstantTween<double>(200.0),
-        weight: 50.0, // 0.75s (50% of 1.5s)
-      begin: const Offset(0.0, 9.0),
-      end: const Offset(0.0, -0.6),
-    ).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
-      ),
-    );
-
-    // Logo size animation with three stages using TweenSequence
-    _logoSizeAnimation = TweenSequence<double>([
-      // Stage 1: Swipe in at 200 (0% to 50%)
-      TweenSequenceItem(
-        tween: ConstantTween<double>(200.0),
-        weight: 50.0, // 0.75s (50% of 1.5s)
       ),
       // Stage 2: Grow from 200 to 220 (50% to 75%)
       TweenSequenceItem(
