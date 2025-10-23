@@ -395,18 +395,6 @@ class _SplashViewState extends State<SplashView>
         curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
       ),
     );
-    ).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
-      ),
-    );
-    ).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve: const Interval(0.0, 0.5, curve: Curves.easeInOut), // 0 to 0.75s
-      ),
-    );
 
     // Logo size animation with three stages using TweenSequence
     _logoSizeAnimation = TweenSequence<double>([
