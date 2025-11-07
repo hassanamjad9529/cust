@@ -393,10 +393,6 @@ class _SplashViewState extends State<SplashView>
         tween: ConstantTween<double>(200.0),
         weight: 50.0, // 0.75s (50% of 1.5s)
       ),
-      TweenSequenceItem(
-        tween: ConstantTween<double>(200.0),
-        weight: 50.0, // 0.75s (50% of 1.5s)
-      ),
       // Stage 2: Grow from 200 to 220 (50% to 75%)
       TweenSequenceItem(
         tween: Tween<double>(begin: 200.0, end: 210.0),
