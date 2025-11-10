@@ -366,10 +366,6 @@ class _SplashViewState extends State<SplashView>
         tween: Tween<double>(begin: 200.0, end: 210.0),
         weight: 25.0, // 0.375s (25% of 1.5s)
       ),
-      TweenSequenceItem(
-        tween: Tween<double>(begin: 200.0, end: 210.0),
-        weight: 25.0, // 0.375s (25% of 1.5s)
-      ),
       // Stage 3: Shrink from 220 to 180 (75% to 100%)
       TweenSequenceItem(
         tween: Tween<double>(begin: 210.0, end: 180.0),
