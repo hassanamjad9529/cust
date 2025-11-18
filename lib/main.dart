@@ -457,18 +457,6 @@ class _SplashViewState extends State<SplashView>
         curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
       ),
     );
-    ]).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
-      ),
-    );
-    ]).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve: const Interval(0.0, 1.0, curve: Curves.easeInOut),
-      ),
-    );
 
     // Text position animation (unchanged timing, just faster)
     _textPositionAnimation = Tween<Offset>(
