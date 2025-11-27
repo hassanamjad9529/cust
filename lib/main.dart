@@ -942,19 +942,6 @@ class _SplashViewState extends State<SplashView>
     );
 
     // Text reveal animation (faster)
-      ),
-    );
-      begin: const Offset(0.0, 0.0),
-      end: const Offset(0.0, 0.0),
-    ).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve:
-            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
-      ),
-    );
-
-    // Text reveal animation (faster)
     _textRevealAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
       CurvedAnimation(
         parent: _controller,
