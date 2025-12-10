@@ -846,18 +846,6 @@ class _SplashViewState extends State<SplashView>
     // Text reveal animation (faster)
       ),
     );
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
       begin: const Offset(0.0, 0.0),
       end: const Offset(0.0, 0.0),
     ).animate(
