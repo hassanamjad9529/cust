@@ -1271,42 +1271,6 @@ class _SplashViewState extends State<SplashView>
     );
       ),
     );
-      CurvedAnimation(
-        parent: _controller,
-        curve:
-            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
-      ),
-    );
-      CurvedAnimation(
-        parent: _controller,
-        curve:
-            const Interval(0.5, 0.75, curve: Curves.easeIn), // 0.75s to 1.125s
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
-      ),
-    );
 
     // Text reveal animation (faster)
       ),
