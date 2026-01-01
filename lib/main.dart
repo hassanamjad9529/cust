@@ -1131,36 +1131,6 @@ class _SplashViewState extends State<SplashView>
     );
       ),
     );
-    );
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
-      ),
-    );
-    );
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
-      ),
-    );
-
-    // Text reveal animation (faster)
-      ),
-    );
-      ),
-    );
 
     // Text reveal animation (faster)
       ),
